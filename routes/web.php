@@ -13,11 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () { return view('inici'); })->name('inici');
 
-Route::get('/blog/posts', function()
-{
-    return 'Llistat de posts';
-});
+Route::get('/blog/posts', function() { return view('posts/llistat'); })->name('posts_llistat');
+
+Route::get('posts/{id?}', function($id) { return view('posts/fitxa', compact('id')); })->where('id', "[0-9]+")->name('posts_fitxa');
