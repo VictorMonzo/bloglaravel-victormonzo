@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('inici'); })->name('inici');
 
-Route::get('/blog/posts', function() { return view('posts/llistat'); })->name('posts_llistat');
+Route::get('/blog/posts', function() { return view('posts/llistat'); })->name('posts-index');
 
-Route::get('posts/{id?}', function($id) { return view('posts/fitxa', compact('id')); })->where('id', "[0-9]+")->name('posts_fitxa');
+Route::get('posts/{id?}', function($id) { return view('posts/fitxa', compact('id')); })->where('id', "[0-9]+")->name('posts-show');
+
+
+/*
+    Rutas Controller
+*/
+Route::resource('post', PostController::class)->only(['index', 'show', 'create', 'edit']);
