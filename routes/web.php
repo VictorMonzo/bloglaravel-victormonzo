@@ -20,7 +20,6 @@ Route::get('/blog/posts', function() { return view('posts/llistat'); })->name('p
 
 Route::get('posts/{id?}', function($id) { return view('posts/fitxa', compact('id')); })->where('id', "[0-9]+")->name('posts-show');
 
-
 /*
     Rutas Controller
 */
