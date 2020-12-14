@@ -14,13 +14,13 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/', function () { return view('inici'); })->name('inici');
-
-Route::get('/blog/posts', function() { return view('posts/llistat'); })->name('posts-index');
-
-Route::get('posts/{id?}', function($id) { return view('posts/fitxa', compact('id')); })->where('id', "[0-9]+")->name('posts-show');
-
 /*
     Rutas Controller
 */
-Route::resource('post', PostController::class)->only(['index', 'show', 'create', 'edit']);
+Route::resource('post', PostController::class);
+
+Route::get('/', function () { return view('inici'); })->name('inici');
+
+/* Crear las dos rutas temporles */
+Route::get('/movies/nuevoPrueba', PostController::class . '@nuevoPrueba')->name('post.nuevoPrueba');
+Route::get('/movies/editarPrueba/{id}', PostController::class . '@editarPrueba')->name('post.editarPrueba');
