@@ -5,10 +5,10 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use HasFactory;
 
+use App\Models\Comentari;
 use App\Models\Post;
-use App\Models\User;
 
-class PostsSeeder extends Seeder
+class ComentarisSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,10 +17,10 @@ class PostsSeeder extends Seeder
      */
     public function run()
     {
-        $users = User::all();
-        $users->each(function ($user) {
-            Post::factory()->count(3)->create([
-                'usuari_id' => $user->id
+        $posts = Post::all();
+        $posts->each(function ($post) {
+            Comentari::factory()->count(1)->create([
+               'post_id' => $post->id
             ]);
         });
     }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comentari;
 use Illuminate\Http\Request;
 use App\Models\Post;
 
@@ -48,7 +49,8 @@ class PostController extends Controller
     public function show($id)
     {
         $post = Post::where('id', '=', $id)->get();
-        return view('post.show', compact('post', $post));
+        $comentaris = Comentari::where('post_id', '=', $id)->get();
+        return view('post.show', compact('post', $post, 'comentaris', $comentaris));
     }
 
     /**
