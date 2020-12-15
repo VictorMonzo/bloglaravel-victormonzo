@@ -19,14 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 3.1">
-      <change afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
+    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 3.2">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/HelperServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_11_143124_crear_taula_posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_15_144802_usuari_id.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/fitxa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/llistat.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v3.1" />
+        <entry key="$PROJECT_DIR$" value="v3.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -207,7 +210,8 @@
       <workItem from="1607855603618" duration="4136000" />
       <workItem from="1607867937805" duration="223000" />
       <workItem from="1607868177438" duration="145000" />
-      <workItem from="1607954330483" duration="4816000" />
+      <workItem from="1607954330483" duration="5712000" />
+      <workItem from="1608040775431" duration="3002000" />
     </task>
     <task id="LOCAL-00001" summary="Actividad 1.1">
       <created>1606640547632</created>
@@ -244,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607698206401</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Actividad 3.2">
+      <created>1607960830008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607960830008</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +279,8 @@
     <MESSAGE value="Actividad 2.1" />
     <MESSAGE value="Actividad 2.2" />
     <MESSAGE value="Actividad 3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actividad 3.1" />
+    <MESSAGE value="Actividad 3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividad 3.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="336" key="NewPhpFileDialog" timestamp="1606836739081">
@@ -276,10 +288,10 @@
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1606643867853" />
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606836739081" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607698217660">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607960838494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1606644764316" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1607960838494" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607698217660" />
   </component>
 </project>

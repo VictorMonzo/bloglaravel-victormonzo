@@ -1,6 +1,7 @@
 <nav class="navbar navbar-light bg-light">
     <a class="nav-link" href="{{ route('inici') }}">Inici</a>
     <a class="nav-link" href="{{ route('post.index') }}">Llistat de posts</a>
+    <a class="nav-link" href="{{ route('post.nuevoPrueba') }}">Crear post</a>
 
     <a href="#" title="Placeholder link title" class="text-decoration-none float-right">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -9,5 +10,4 @@
         </svg>
         {{ fechaActual("d/m/Y") }}
     </a>
-
 </nav>
