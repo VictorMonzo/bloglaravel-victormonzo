@@ -7,6 +7,8 @@
         <h2>{{ $post->titol }}</h2>
         <h4>Nombre autor: {{ $post->users->name }}</h4>
         <a href="{{ route('post.show', $post->id) }}">Veure</a>
+        <a href="{{ route('post.edit', $post->id) }}">Editar post form</a>
+
 
         <form method="POST" action="{{  route('post.destroy', $post->id) }}">
             @method('DELETE')

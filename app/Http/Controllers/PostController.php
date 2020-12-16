@@ -67,7 +67,8 @@ class PostController extends Controller
      */
     public function edit($id)
     {
-        return redirect()->route('inici');
+        $post = Post::where('id', $id)->get();
+        return view('post/edit', compact('post'));
     }
 
     /**
@@ -79,7 +80,11 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Post::where('id', $id)->get()->first();;
+        $post->titol = $request->get('titol');
+        $post->contingut = $request->get('contingut');
+        $post->save();
+        return redirect()->route('post.index');
     }
 
     /**
