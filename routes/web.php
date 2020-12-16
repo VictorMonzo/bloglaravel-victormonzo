@@ -21,6 +21,8 @@ Route::resource('post', PostController::class);
 
 Route::get('/', function () { return view('inici'); })->name('inici');
 
+//Route::get('/', function () { return view('post/create'); })->name('crear-post');
+
 /* Crear las dos rutas temporles */
 Route::get('/movies/nuevoPrueba', PostController::class . '@nuevoPrueba')->name('post.nuevoPrueba');
 Route::get('/movies/editarPrueba/{id}', PostController::class . '@editarPrueba')->name('post.editarPrueba');

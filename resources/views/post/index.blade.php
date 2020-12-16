@@ -13,7 +13,7 @@
             @csrf
             <button>Borrar</button>
         </form>
-        <a href="{{ route('post.destroy', $post->id) }}">Eliminar</a>
+
     @empty
         <h2>No hay ningún post</h2>
     @endforelse

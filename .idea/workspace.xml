@@ -19,20 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 4.2">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ComentariController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Comentari.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ComentariFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_15_162132_crear_taula_comentari.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/ComentarisSeeder.php" afterDir="false" />
+    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 4.3">
+      <change afterPath="$PROJECT_DIR$/resources/views/post/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helpers/myHelpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/myHelpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/PostsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/PostsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v4.2" />
+        <entry key="$PROJECT_DIR$" value="v4.3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -214,7 +208,9 @@
       <workItem from="1607867937805" duration="223000" />
       <workItem from="1607868177438" duration="145000" />
       <workItem from="1607954330483" duration="5712000" />
-      <workItem from="1608040775431" duration="11889000" />
+      <workItem from="1608040775431" duration="11999000" />
+      <workItem from="1608063961823" duration="1005000" />
+      <workItem from="1608078713940" duration="3227000" />
     </task>
     <task id="LOCAL-00001" summary="Actividad 1.1">
       <created>1606640547632</created>
@@ -272,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608048858066</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Actividad 4.3">
+      <created>1608054381672</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608054381672</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,23 +302,24 @@
     <MESSAGE value="Actividad 3.2" />
     <MESSAGE value="Actividad 4.1" />
     <MESSAGE value="Actividad 4.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actividad 4.2" />
+    <MESSAGE value="Actividad 4.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividad 4.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608050950282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608050950282" />
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1606836739081">
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1608078883948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1606643867853" />
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1608078883948" />
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606836739081" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608048864123">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608054390308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1607960838494" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608048864123" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608054390308" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1608054029378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

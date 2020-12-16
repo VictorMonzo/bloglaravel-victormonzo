@@ -25,4 +25,10 @@
     @endforelse
 
 
+    <form method="POST" action="{{  route('post.destroy', $post[0]->id) }}">
+        @method('DELETE')
+        @csrf
+        <button>Eliminar post y comentarios</button>
+    </form>
+
 @endsection

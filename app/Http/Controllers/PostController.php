@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Comentari;
 use Illuminate\Http\Request;
 use App\Models\Post;
+use App\Models\User;
+use App\Models\Comentari;
 
 class PostController extends Controller
 {
@@ -26,7 +27,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        return redirect()->route('inici');
+        return view('post/create');
     }
 
     /**
@@ -37,7 +38,12 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new Post();
+        $post->titol = $request->get('titol');
+        $post->contingut = $request->get('contingut');
+        $post->usuari_id = User::get('id')->first()->id;
+        $post->save();
+        return redirect()->route('post.index');
     }
 
     /**
@@ -84,6 +90,7 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
+        Comentari::where('post_id', $id)->delete();
         Post::findOrFail($id)->delete();
         return redirect()->route('post.index');
     }
