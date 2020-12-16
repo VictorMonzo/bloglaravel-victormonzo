@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Post;
 use App\Models\User;
 use App\Models\Comentari;
+use App\Http\Requests\PostRequest;
 
 class PostController extends Controller
 {
@@ -36,7 +37,7 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(PostRequest $request)
     {
         $post = new Post();
         $post->titol = $request->get('titol');
@@ -78,7 +79,7 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(PostRequest $request, $id)
     {
         $post = Post::where('id', $id)->get()->first();;
         $post->titol = $request->get('titol');
