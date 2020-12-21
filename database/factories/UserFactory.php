@@ -26,7 +26,8 @@ class UserFactory extends Factory
         return [
             'name' => $nombre,
             'password' => bcrypt('1234'),
-            'email' => $this->faker->email
+            'email' => $this->faker->email,
+            'rol' => 0
         ];
 
     }

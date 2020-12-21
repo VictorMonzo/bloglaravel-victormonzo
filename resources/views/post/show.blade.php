@@ -24,11 +24,11 @@
         <h4>No hay comentarios</h4>
     @endforelse
 
-
-    <form method="POST" action="{{  route('post.destroy', $post[0]->id) }}">
-        @method('DELETE')
-        @csrf
-        <button>Eliminar post y comentarios</button>
-    </form>
-
+    @if(auth()->user()->id === $post[0]->usuari_id || auth()->user()->rol === '1')
+        <form method="POST" action="{{  route('post.destroy', $post[0]->id) }}">
+            @method('DELETE')
+            @csrf
+            <button>Eliminar post y comentarios</button>
+        </form>
+    @endif
 @endsection

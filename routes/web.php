@@ -18,7 +18,6 @@ use Illuminate\Support\Facades\Route;
 */
 Route::resource('post', PostController::class);
 
-
 //Route::resource('login', LoginController::class);
 
 Route::get('/', function () { return view('inici'); })->name('inici');

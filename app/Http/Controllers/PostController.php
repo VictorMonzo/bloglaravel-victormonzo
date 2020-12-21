@@ -13,6 +13,7 @@ class PostController extends Controller
     public function __construct()
     {
         $this->middleware('auth',['only' => ['create', 'store', 'edit', 'update', 'destroy']]);
+        //$this->middleware("roles:1", ['only' => ['edit', 'update', 'destroy']]);
     }
 
     /**

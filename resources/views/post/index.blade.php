@@ -8,11 +8,9 @@
         <h4>Nombre autor: {{ $post->users->name }}</h4>
         <a href="{{ route('post.show', $post->id) }}">Veure</a>
 
-        @if(Auth::check())
+        @if(auth()->user()->id === $post->usuari_id || auth()->user()->rol === '1')
 
-            @if(auth()->user()->id === $post->usuari_id)
-                <a href="{{ route('post.edit', $post->id) }}">Editar post form</a>
-            @endif
+        <a href="{{ route('post.edit', $post->id) }}">Editar post form</a>
 
         <form method="POST" action="{{  route('post.destroy', $post->id) }}">
             @method('DELETE')
