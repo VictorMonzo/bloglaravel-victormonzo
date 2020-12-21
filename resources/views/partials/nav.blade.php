@@ -1,7 +1,6 @@
 <nav class="navbar navbar-light bg-light">
     <a class="nav-link" href="{{ route('inici') }}">Inici</a>
     <a class="nav-link" href="{{ route('post.index') }}">Llistat de posts</a>
-    <a class="nav-link" href="{{ route('post.nuevoPrueba') }}">Crear post</a>
     <a class="nav-link" href="{{ route('post.create') }}">Crear post form</a>
 
     <a href="#" title="Placeholder link title" class="text-decoration-none float-right">
@@ -11,4 +10,11 @@
         </svg>
         {{ fechaActual("d/m/Y") }}
     </a>
+    @if(!Auth::check())
+        <a class="nav-link" href="{{ route('login') }}">Login</a>
+    @else
+        <a class="nav-link" href="{{ route('salir') }}">Logout</a>
+    @endif
+
 </nav>
+

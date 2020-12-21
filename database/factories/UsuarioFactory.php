@@ -21,9 +21,10 @@ class UsuarioFactory extends Factory
      */
     public function definition()
     {
+        $nombre = $this->faker->name;
         return [
-            'name' => $this->faker->name,
-            'password' => $this->faker->numberBetween(0, 9999),
+            'name' => $nombre,
+            'password' => bcrypt($nombre),
             'email' => $this->faker->email
         ];
     }

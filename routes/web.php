@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,10 +18,17 @@ use App\Http\Controllers\PostController;
 */
 Route::resource('post', PostController::class);
 
+
+//Route::resource('login', LoginController::class);
+
 Route::get('/', function () { return view('inici'); })->name('inici');
 
-//Route::get('/', function () { return view('post/create'); })->name('crear-post');
+/* Crear las dos rutas temporles */ /*
+Route::get('/movies/nuevoPrueba', PostController::class . '@nuevoPrueba')->name('post.nuevoPrueba')->middleware('auth');
+Route::get('/movies/editarPrueba/{id}', PostController::class . '@editarPrueba')->name('post.editarPrueba')->middleware('auth');*/
 
-/* Crear las dos rutas temporles */
-Route::get('/movies/nuevoPrueba', PostController::class . '@nuevoPrueba')->name('post.nuevoPrueba');
-Route::get('/movies/editarPrueba/{id}', PostController::class . '@editarPrueba')->name('post.editarPrueba');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('logout', 'Auth\LoginController@logout')->name('salir');
