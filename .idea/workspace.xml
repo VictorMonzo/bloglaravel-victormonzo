@@ -19,16 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 6.1">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RolCheck.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_21_154408_rol.php" afterDir="false" />
+    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 6.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inici.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inici.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v6.1" />
+        <entry key="$PROJECT_DIR$" value="v6.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -223,6 +221,9 @@
       <workItem from="1608314277975" duration="239000" />
       <workItem from="1608333669519" duration="808000" />
       <workItem from="1608559265037" duration="9439000" />
+      <workItem from="1608571167339" duration="80000" />
+      <workItem from="1608903538872" duration="4898000" />
+      <workItem from="1608973230734" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="Actividad 1.1">
       <created>1606640547632</created>
@@ -315,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608565026219</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Actividad 6.2">
+      <created>1608571186702</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608571186702</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +356,8 @@
     <MESSAGE value="Actividad 5.2" />
     <MESSAGE value="Actividad 5.3" />
     <MESSAGE value="Actividad 6.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actividad 6.1" />
+    <MESSAGE value="Actividad 6.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividad 6.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608050950282">
@@ -360,11 +369,11 @@
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1608082247436" />
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606836739081" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608565034166">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608571194348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1608085071895" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608565034166" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608571194348" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1608561845577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
