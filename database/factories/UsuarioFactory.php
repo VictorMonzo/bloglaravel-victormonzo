@@ -2,11 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\User;
+use App\Models\Model;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
-class UserFactory extends Factory
+class UsuarioFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
@@ -25,10 +24,8 @@ class UserFactory extends Factory
         $nombre = $this->faker->name;
         return [
             'name' => $nombre,
-            'password' => bcrypt('1234'),
-            'email' => $this->faker->email,
-            'rol' => 0
+            'password' => bcrypt($nombre),
+            'email' => $this->faker->email
         ];
-
     }
 }

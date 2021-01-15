@@ -2,18 +2,19 @@
 
 namespace Database\Factories;
 
-use App\Models\User;
+use App\Models\Comentari;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
-class UserFactory extends Factory
+use App\Models\User;
+
+class ComentariFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = User::class;
+    protected $model = Comentari::class;
 
     /**
      * Define the model's default state.
@@ -22,13 +23,9 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-        $nombre = $this->faker->name;
         return [
-            'name' => $nombre,
-            'password' => bcrypt('1234'),
-            'email' => $this->faker->email,
-            'rol' => 0
+            'comentari' => $this->faker->text($maxNbChars = 200),
+            'usuari_id' => User::inRandomOrder()->first()
         ];
-
     }
 }

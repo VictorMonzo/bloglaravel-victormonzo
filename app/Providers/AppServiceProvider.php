@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+//use Illuminate\Routing\Route;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +26,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Route::resourceVerbs([
+            'create' => 'crear',
+            'edit' => 'editar'
+        ]);
+
+        Paginator::useBootstrap();
     }
 }

@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 1.1">
-      <change afterPath="$PROJECT_DIR$/resources/views/inici.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/plantilla.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/fitxa.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/llistat.blade.php" afterDir="false" />
+    <list default="true" id="6468af1e-6e39-4217-a59e-c41d6fb899e8" name="Default Changelist" comment="Actividad 6.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inici.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inici.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v1.1" />
+        <entry key="$PROJECT_DIR$" value="v6.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,14 +152,19 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ksXaNMJd10T7swCAWugcvlc7uK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -194,7 +198,32 @@
       <option name="presentableId" value="Default" />
       <updated>1606490334735</updated>
       <workItem from="1606490342644" duration="637000" />
-      <workItem from="1606639903760" duration="4581000" />
+      <workItem from="1606639903760" duration="5878000" />
+      <workItem from="1606645853312" duration="13000" />
+      <workItem from="1606663715000" duration="390000" />
+      <workItem from="1606744502901" duration="8149000" />
+      <workItem from="1606831866794" duration="7134000" />
+      <workItem from="1606846206619" duration="26000" />
+      <workItem from="1606901409599" duration="522000" />
+      <workItem from="1607091331712" duration="3209000" />
+      <workItem from="1607695400776" duration="6978000" />
+      <workItem from="1607702496726" duration="19000" />
+      <workItem from="1607855603618" duration="4136000" />
+      <workItem from="1607867937805" duration="223000" />
+      <workItem from="1607868177438" duration="145000" />
+      <workItem from="1607954330483" duration="5712000" />
+      <workItem from="1608040775431" duration="11999000" />
+      <workItem from="1608063961823" duration="1005000" />
+      <workItem from="1608078713940" duration="6404000" />
+      <workItem from="1608107799522" duration="1950000" />
+      <workItem from="1608293072646" duration="1476000" />
+      <workItem from="1608299889955" duration="4912000" />
+      <workItem from="1608314277975" duration="239000" />
+      <workItem from="1608333669519" duration="808000" />
+      <workItem from="1608559265037" duration="9439000" />
+      <workItem from="1608571167339" duration="80000" />
+      <workItem from="1608903538872" duration="4898000" />
+      <workItem from="1608973230734" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="Actividad 1.1">
       <created>1606640547632</created>
@@ -203,7 +232,98 @@
       <option name="project" value="LOCAL" />
       <updated>1606640547632</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Actividad 1.2">
+      <created>1606644675152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606644675152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Actividad 2.1">
+      <created>1606833037874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606833037874</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Actividad 2.2">
+      <created>1606839041249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606839041249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Actividad 3.1">
+      <created>1607698206401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607698206401</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Actividad 3.2">
+      <created>1607960830008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607960830008</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Actividad 4.1">
+      <created>1608045482607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608045482607</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Actividad 4.2">
+      <created>1608048858066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608048858066</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Actividad 4.3">
+      <created>1608054381672</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608054381672</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Actividad 5.1">
+      <created>1608082156578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608082156578</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Actividad 5.2">
+      <created>1608083998900</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608083998900</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Actividad 5.3">
+      <created>1608085065425</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608085065425</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Actividad 6.1">
+      <created>1608565026219</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608565026219</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Actividad 6.2">
+      <created>1608571186702</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608571186702</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,19 +339,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Actividad 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actividad 1.1" />
+    <MESSAGE value="Actividad 1.2" />
+    <MESSAGE value="Actividad 2.1" />
+    <MESSAGE value="Actividad 2.2" />
+    <MESSAGE value="Actividad 3.1" />
+    <MESSAGE value="Actividad 3.2" />
+    <MESSAGE value="Actividad 4.1" />
+    <MESSAGE value="Actividad 4.2" />
+    <MESSAGE value="Actividad 4.3" />
+    <MESSAGE value="Actividad 5.1" />
+    <MESSAGE value="Actividad 5.2" />
+    <MESSAGE value="Actividad 5.3" />
+    <MESSAGE value="Actividad 6.1" />
+    <MESSAGE value="Actividad 6.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividad 6.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1606643867853">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608050950282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1606643867853" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606640560076">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608050950282" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1608082247436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1606640560076" />
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1608082247436" />
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606836739081" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608571194348">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-147.1920.1040@0.0.1536.824" timestamp="1608085071895" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608571194348" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1608561845577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608561845577" />
   </component>
 </project>
